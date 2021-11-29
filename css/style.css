@@ -1,0 +1,251 @@
+html {
+    margin-top: 0 !important;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+ul#menu-top-menu li a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #250902;
+    padding: 5px 35px;
+}
+
+.lag-select {
+    width: 135px;
+}
+
+header {
+    -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    padding: 15px 0;
+}
+
+#section-1 {
+    background-image: url('../images/section-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 800px;
+}
+
+ul#menu-top-menu li a i {
+    color: #f75002;
+    margin-right: 10px;
+}
+
+section h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.dialoge-btn h1 {
+    font-weight: bold;
+}
+
+.dialoge-btn h1 span {
+    color: #f45101;
+}
+
+.blue-border {
+    width: 130px;
+    height: 4px;
+    background-color: #55D3DC;
+    display: block;
+    margin: auto;
+}
+
+.n-btn-bg {
+    border: 1px solid #f45101;
+    color: #f45101;
+}
+
+.btn-bg {
+    background-color: #F45101;
+    color: #ffffff;
+}
+
+.dialoge-btn {
+    margin-top: 150px;
+}
+
+.iframe-about {
+    width: 600px;
+    height: 500px;
+}
+
+section#section-4 p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+section#section-4 {
+/* background: rgb(211,222,116);
+background: linear-gradient(90deg, rgba(211,222,116,1) 0%, rgba(255,255,255,1) 100%); */
+background-image: url('../images/section-4-bg.png');
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+section#section-5 {
+    background-image: url(../images/section-5-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 900px;
+    }
+
+    .get-in-tch h5 {
+        font-size: 30px;
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 25px;
+        margin-top: 100px;
+    }
+
+    .get-in-tch input, .get-in-tch textarea {
+        border: 1px solid #F45101;
+        padding: 10px 25px;
+        background-color: #ffffffb8;
+        margin-bottom: 25px;
+    }
+
+        .get-in-tch .btn {
+        background-color: #ffffff;
+        color:#F45101;
+    }
+
+    .get-in-tch span.text-white.mx-4 {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+
+    /* Customize the label (the container) */
+.checkbxfrm {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .checkbxfrm input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .checkbxfrm input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .checkbxfrm input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .checkbxfrm .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+footer {
+    background-color: #F45101;
+    padding: 15px 0;
+}
+
+footer p {
+color: #ffffff;
+font-size: 24px;
+font-weight: 500;
+margin-bottom: 0;
+}
+
+.service-container {
+    border: 1px solid #55D3DC;
+    border-radius: 4px;
+}
+
+.service-container img {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.service-container h5 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    top: unset;
+    bottom: -50px;
+    color: #000;
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
